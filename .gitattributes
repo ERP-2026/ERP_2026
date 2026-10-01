@@ -1,0 +1,5 @@
+# Normalize text in the repository; retain platform-specific line endings on checkout.
+* text=auto
+
+# Keep shell scripts with LF when verified scripts are added later.
+*.sh text eol=lf

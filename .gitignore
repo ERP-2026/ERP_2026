@@ -1,0 +1,42 @@
+# ROS1 / catkin build outputs
+/build/
+/devel/
+/install/
+/logs/
+/log/
+/.catkin_tools/
+
+# C++ build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editor-local state (shared .vscode settings remain trackable)
+.vscode/*.code-workspace
+*.swp
+*.swo
+*~
+.idea/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
